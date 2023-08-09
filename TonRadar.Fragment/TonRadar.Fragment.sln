@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonRadar.Fragment", "TonRadar.Fragment\TonRadar.Fragment.csproj", "{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonRadar.Fragment.Test", "TonRadar.Fragment.Test\TonRadar.Fragment.Test.csproj", "{6525D548-679F-4848-AE5B-0D7F2A07B0D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6525D548-679F-4848-AE5B-0D7F2A07B0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6525D548-679F-4848-AE5B-0D7F2A07B0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6525D548-679F-4848-AE5B-0D7F2A07B0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6525D548-679F-4848-AE5B-0D7F2A07B0D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
