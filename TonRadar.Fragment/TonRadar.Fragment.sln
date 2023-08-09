@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonRadar.Fragment", "TonRadar.Fragment\TonRadar.Fragment.csproj", "{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B2DCD2-22D2-4FD5-ADC1-F56AECF3316C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD9B5633-8C1C-4D24-8CF2-C0E1E78C6F98}
+	EndGlobalSection
+EndGlobal
