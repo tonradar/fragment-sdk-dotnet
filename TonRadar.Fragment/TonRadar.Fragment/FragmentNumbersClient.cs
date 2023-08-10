@@ -6,12 +6,18 @@ namespace TonRadar.Fragment;
 public class FragmentNumbersClient : FragmentClientBase
 {
     public async Task<List<AuctionItem>> GetAuctionItemsAsync(
-        FragmentFilterType? filter = null,
-        FragmentSortType? sort = null)
+        FragmentFilterType filter = FragmentFilterType.OnAuction,
+        FragmentSortType sort = FragmentSortType.PriceHighToLow)
     {
         var queryParams = CreateQueryParams(filter, sort);
         var content = await GetHtmlAsync($"https://fragment.com/numbers?{queryParams}");
-        var auctionItems = Parser.ExtractAuctionItems(content);
+        var auctionItems = filter switch
+        {
+            FragmentFilterType.OnAuction => Parser.ExtractAuctionItems(content),
+            FragmentFilterType.ForSale => Parser.ExtractSaleItems(content),
+            FragmentFilterType.Sold => Parser.ExtractSoldItems(content),
+            _ => throw new InvalidOperationException($"Unknown filter type: {filter.ToString()}")
+        };
         return auctionItems;
     }
 

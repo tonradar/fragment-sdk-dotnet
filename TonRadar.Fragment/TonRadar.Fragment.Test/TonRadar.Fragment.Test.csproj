@@ -10,10 +10,14 @@
 
   <ItemGroup>
     <None Remove="HtmlSample\numbers-auction-01.html" />
+    <None Remove="HtmlSample\numbers-sale-01.html" />
+    <None Remove="HtmlSample\numbers-sold-01.html" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="HtmlSample\numbers-auction-01.html" />
+    <EmbeddedResource Include="HtmlSample\numbers-sold-01.html" />
+    <EmbeddedResource Include="HtmlSample\numbers-sale-01.html" />
   </ItemGroup>
 
   <ItemGroup>
