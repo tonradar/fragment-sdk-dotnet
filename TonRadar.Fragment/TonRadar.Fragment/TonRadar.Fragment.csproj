@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <PackageReference Include="ScrapySharp" Version="3.0.0" />
   </ItemGroup>
 
 </Project>
