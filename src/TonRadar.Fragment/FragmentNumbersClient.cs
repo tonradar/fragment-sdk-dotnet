@@ -18,6 +18,7 @@ public class FragmentNumbersClient : FragmentClientBase
             FragmentFilterType.Sold => Parser.ExtractSoldItems(content),
             _ => throw new InvalidOperationException($"Unknown filter type: {filter.ToString()}")
         };
+
         return auctionItems;
     }
 
