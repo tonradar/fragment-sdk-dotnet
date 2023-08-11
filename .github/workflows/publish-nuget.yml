@@ -12,7 +12,7 @@ on:
 env:
   PROJECT_PATH: 'src/TonRadar.Fragment/TonRadar.Fragment.csproj'
   TEST_PATH: 'src/TonRadar.Fragment.Test/TonRadar.Fragment.Test.csproj'
-  PACKAGE_OUTPUT_DIRECTORY: ${{ guthub.workspace }}/output
+  PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}/output
   NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
   
 jobs:
