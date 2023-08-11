@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -12,9 +12,14 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>A library to read "fragment.com" auctions on TON. This library uses scrapping to provides a very neat .NET library that is fully typed.</Description>
+    <PackageIcon>TonRadar.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\doc\TonRadar.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
