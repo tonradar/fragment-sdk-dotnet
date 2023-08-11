@@ -4,7 +4,26 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>TON Fragment SDK</Title>
+    <Authors>Mehran Davoudi</Authors>
+    <Company>TonRadar</Company>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>TON;Fragment;Scrapper;Auction</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>A library to read "fragment.com" auctions on TON. This library uses scrapping to provides a very neat .NET library that is fully typed.</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="ScrapySharp" Version="3.0.0" />
