@@ -2,7 +2,7 @@ using TonRadar.Fragment.Enum;
 
 namespace TonRadar.Fragment.Test
 {
-    [Trait("github-actions", "skip")]
+    [Trait("GitHubActions", "Skip")]
     public class FragmentNumbersClientSaleTests
     {
         [Fact]
