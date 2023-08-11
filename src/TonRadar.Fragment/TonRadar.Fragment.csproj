@@ -13,6 +13,8 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>A library to read "fragment.com" auctions on TON. This library uses scrapping to provides a very neat .NET library that is fully typed.</Description>
     <PackageIcon>TonRadar.png</PackageIcon>
+    <RepositoryUrl>https://github.com/tonradar/fragment-sdk-dotnet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/tonradar/fragment-sdk-dotnet</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
