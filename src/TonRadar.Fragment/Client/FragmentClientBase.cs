@@ -1,7 +1,8 @@
 ﻿using System.Text;
 using TonRadar.Fragment.Enum;
+using TonRadar.Fragment.Parser;
 
-namespace TonRadar.Fragment;
+namespace TonRadar.Fragment.Client;
 
 public class FragmentClientBase
 {
@@ -59,5 +60,5 @@ public class FragmentClientBase
         return string.Join("&", queryParams);
     }
 
-    
+
 }

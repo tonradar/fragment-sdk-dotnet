@@ -9,7 +9,7 @@ using ScrapySharp.Extensions;
 using TonRadar.Fragment.Enum;
 
 
-namespace TonRadar.Fragment
+namespace TonRadar.Fragment.Parser
 {
     public class FragmentHtmlParser
     {

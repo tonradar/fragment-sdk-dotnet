@@ -1,10 +1,20 @@
 ﻿using TonRadar.Fragment.Enum;
 using TonRadar.Fragment.Model;
 
-namespace TonRadar.Fragment;
+namespace TonRadar.Fragment.Client;
 
 public class FragmentNumbersClient : FragmentClientBase
 {
+    public FragmentNumbersClient(HttpClient httpClient) : base(httpClient)
+    {
+        
+    }
+
+    public FragmentNumbersClient() : this(new HttpClient())
+    {
+        
+    }
+
     public async Task<List<AuctionItem>> GetAuctionItemsAsync(
         FragmentFilterType filter = FragmentFilterType.OnAuction,
         FragmentSortType sort = FragmentSortType.PriceHighToLow)
@@ -22,5 +32,5 @@ public class FragmentNumbersClient : FragmentClientBase
         return auctionItems;
     }
 
-    
+
 }

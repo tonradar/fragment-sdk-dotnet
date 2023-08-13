@@ -1,5 +1,6 @@
 using System.Reflection;
 using TonRadar.Fragment.Model;
+using TonRadar.Fragment.Parser;
 using TonRadar.Fragment.Test.Util;
 
 namespace TonRadar.Fragment.Test;
