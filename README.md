@@ -1,5 +1,5 @@
 # TON Fragment .NET SDK
-[![NuGet version (TonRadar.Fragment)](https://img.shields.io/nuget/v/TonRadar.Fragment.svg?style=flat-square)](https://www.nuget.org/packages/TonRadar.Fragment/)
+[![NuGet version (TonRadar.Fragment)](https://img.shields.io/nuget/v/TonRadar.Fragment.svg?style=flat)](https://www.nuget.org/packages/TonRadar.Fragment/)
 [![Build and Deploy](https://github.com/tonradar/fragment-sdk-dotnet/actions/workflows/build.yml/badge.svg)](https://github.com/tonradar/fragment-sdk-dotnet/actions/workflows/build.yml)
 [![Build and Deploy](https://github.com/tonradar/fragment-sdk-dotnet/actions/workflows/publish-nuget.yml/badge.svg)](https://github.com/tonradar/fragment-sdk-dotnet/actions/workflows/publish-nuget.yml)
 
